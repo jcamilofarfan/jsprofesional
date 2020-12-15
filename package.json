@@ -1,0 +1,12 @@
+{
+  "name": "jsprofesional",
+  "version": "1.0.0",
+  "description": "Curso profesional JS PLatzi",
+  "license": "MIT",
+  "author": "jcamilofarfan",
+  "keywords": [
+
+  ],
+  "scripts": {},
+  "devDependencies": {}
+}
