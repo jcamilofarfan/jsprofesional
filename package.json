@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "Curso profesional JS PLatzi",
   "license": "MIT",
-  "author": "jcamilofarfan",
-  "keywords": [
-
-  ],
-  "scripts": {},
-  "devDependencies": {}
+  "author": "Juan Camilo Farfan Juanias <farfan1976@hotmail.com>",
+  "keywords": [],
+  "scripts": {
+    "start": "live-server"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
 }
