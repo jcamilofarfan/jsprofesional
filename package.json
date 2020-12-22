@@ -10,5 +10,14 @@
   },
   "devDependencies": {
     "live-server": "^1.2.1"
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcamilofarfan/jsprofesional.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jcamilofarfan/jsprofesional/issues"
+  },
+  "homepage": "https://github.com/jcamilofarfan/jsprofesional#readme"
 }
