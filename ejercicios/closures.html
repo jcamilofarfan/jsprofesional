@@ -14,22 +14,25 @@
       // IIFE
       // (function() {
       //   let color = 'green';
+
       //   function printColor() {
       //     console.log(color);
       //   }
+
       //   printColor();
       // })();
 
-
       // Funciones que regresan funciones
-      function makeColorPrinter(color) {
-        let colorMessage = `The color is ${color}`;
-        return function() {
-          console.log(colorMessage);
-        };
-      }
-      let greenColorPrinter = makeColorPrinter('green');
-      console.log(greenColorPrinter());
+      // function makeColorPrinter(color) {
+      //   let colorMessage = `The color is ${color}`;
+
+      //   return function() {
+      //     console.log(colorMessage);
+      //   };
+      // }
+
+      // let greenColorPrinter = makeColorPrinter('green');
+      // console.log(greenColorPrinter());
 
       // variables "privadas"
       // const counter = {
@@ -41,6 +44,7 @@
 
       function makeCounter(n) {
         let count = n;
+
         return {
           increase: function() {
             count = count + 1;

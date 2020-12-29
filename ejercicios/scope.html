@@ -25,6 +25,7 @@
       //         console.log(n);
       //       }, 100);
       //     }
+
       //     eventuallyPrintNumber(i);
       //   }
       // }
@@ -32,10 +33,9 @@
       // printNumbers();
 
       // Block Scope
-      //let opera sobte el bloque cada nuava iteracion se crea un nuevo bloque
       function printNumbers2() {
         for (let i = 0; i < 10; i++) {
-          setTimeout(function () {
+          setTimeout(function() {
             console.log(i);
           }, 100);
         }
